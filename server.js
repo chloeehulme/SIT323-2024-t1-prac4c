@@ -9,7 +9,7 @@ app.use(express.static("public"));
 
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/index.html")
+    res.sendFile(__dirname + "/html/index.html")
 })
 
 // Calculates addition of two numbers, returns error message to user if one or more inputs are empty or NaN
